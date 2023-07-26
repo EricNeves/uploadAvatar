@@ -27,13 +27,13 @@ Website: [Upload Avatar]()
 
 ### Features
 
-A aplicação explora vários recursos da linguagem PHP, como a funcionalidade GD para redimensionar as imagens. 
+A aplicação explora vários recursos da linguagem <b>PHP</b>, como a funcionalidade <b>GD</b> para redimensionar as imagens. 
 
-O sistema utiliza a arquitetura MVC, juntamente com recursos de funcionalidades assíncronas do Javascript, como a biblioteca Axios e Fetch API.
+O sistema utiliza a arquitetura <b>MVC</b>, juntamente com recursos de funcionalidades assíncronas do <b>Javascript</b>, como a biblioteca <b>Axios</b> e <b>Fetch API</b>.
 
-Além do mais, o upload das imagens são feitos no formato BLOB (Binary Large Object), sem a necessidade de armazenar arquivos no servidor ou em uma CDN, diminuindo a necessidade do uso de recursos.
+Além do mais, o upload das imagens são feitos no formato <b>BLOB (Binary Large Object)</b>, sem a necessidade de armazenar arquivos no servidor ou em uma CDN, diminuindo a necessidade do uso de recursos.
 
-As imagens são expostas através do header, tendo o conteúdo definido como image/jpeg a partir de uma URL com o ID na imagem.
+As imagens são expostas através do <b>header</b>, tendo o conteúdo definido como <b>image/jpeg</b> a partir de uma <b>URL</b> com o <b>ID</b> na imagem.
 
 * PHP
   - PDO (SQL)
