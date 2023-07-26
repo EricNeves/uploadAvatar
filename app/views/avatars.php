@@ -26,7 +26,7 @@
         </div>
 
         <div class="image">
-          <img src="http://localhost/github/uploadAvatar/app/avatars/list/<?php echo $image['id']; ?>"
+          <img src="<?php echo BASE_URL; ?>avatars/list/<?php echo $image['id']; ?>"
             alt="Image <?php echo $image['id']; ?>">
 
           <a href="" id="openModal">
