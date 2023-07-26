@@ -54,9 +54,9 @@ Segue-se alguns passos para a execução da aplicação:
 
 - Iniciar o servidor <b>Apache</b> e o <b>Mysql</b>.
 
-- Configure o arquivo config.php com suas credenciais de banco de dados e edite o <b>BASE_URL</b> conforme a o local do projeto, inclua a pasta <b>/app</b>.
-
 - Copie a pasta do projeto para dentro do servidor <b>Apache</b>.
+
+- Configure o arquivo <b>config.php</b> com suas credenciais de banco de dados e edite o <b>BASE_URL</b> conforme a o local do projeto, inclua a pasta <b>/app</b>.
 
 - Ativar o ModRewrite: <b>comando via terminal</b>: ```a2enmod rewrite``` ou habilitar nas configurações do <b>Apache</b>.
 
