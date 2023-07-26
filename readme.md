@@ -33,7 +33,7 @@ O sistema utiliza a arquitetura MVC, juntamente com recursos de funcionalidades 
 
 Além do mais, o upload das imagens são feitos no formato BLOB (Binary Large Object), sem a necessidade de armazenar arquivos no servidor ou em uma CDN, diminuindo a necessidade do uso de recursos.
 
-As imagens são expostas em formato Base64, com o conteúdo do header como image/jpeg a partir de uma URL com o ID na imagem.
+As imagens são expostas através do header, tendo o conteúdo definido como image/jpeg a partir de uma URL com o ID na imagem.
 
 * PHP
   - PDO (SQL)
