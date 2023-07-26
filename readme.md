@@ -10,9 +10,9 @@
 </h4>
 
 <p align="center">
-  <img src="https://img.shields.io/github/last-commit/ericneves/simpleCRUDMVC?style=flat-square&logo=github&logoColor=white&color=green">
-  <img src="https://img.shields.io/github/languages/top/ericneves/simpleCRUDMVC?style=flat-square&logo=php&logoColor=blue&labelColor=white">
-  <img src="https://img.shields.io/github/license/ericneves/simpleCRUDMVC?style=flat-square&logo=github&color=red">
+  <img src="https://img.shields.io/github/last-commit/ericneves/uploadAvatar?style=flat-square&logo=github&logoColor=white&color=green">
+  <img src="https://img.shields.io/github/languages/top/ericneves/uploadAvatar?style=flat-square&logo=php&logoColor=white&labelColor=blue">
+  <img src="https://img.shields.io/github/license/ericneves/simpleCRUDMVC?style=flat-square&logo=github&color=yellow">
 </p>
 
 <p align="center">
@@ -31,7 +31,7 @@ A aplicação explora vários recursos da linguagem PHP, como a funcionalidade G
 
 O sistema utiliza a arquitetura MVC, juntamente com recursos de funcionalidades assíncronas do Javascript, como a biblioteca Axios e Fetch API.
 
-Além do mais, o upload das imagens são feitas no formato BLOB (Binary Large Object), sem a necessidade de armazenar arquivos no servidor ou em uma CDN, diminuindo a necessidade do uso de recursos.
+Além do mais, o upload das imagens são feitos no formato BLOB (Binary Large Object), sem a necessidade de armazenar arquivos no servidor ou em uma CDN, diminuindo a necessidade do uso de recursos.
 
 As imagens são expostas em formato Base64, com o conteúdo do header como image/jpeg a partir de uma URL com o ID na imagem.
 
@@ -53,15 +53,19 @@ As imagens são expostas em formato Base64, com o conteúdo do header como image
 Segue-se alguns passos para a execução da aplicação:
 
 - Iniciar o servidor <b>Apache</b> e o <b>Mysql</b>.
-- Configure o arquivo config.php com suas credenciais de banco de dados e edite o BASE_URL conforme a o local do projeto.
+
+- Configure o arquivo config.php com suas credenciais de banco de dados e edite o <b>BASE_URL</b> conforme a o local do projeto, inclua a pasta <b>/app</b>.
+
 - Copie a pasta do projeto para dentro do servidor <b>Apache</b>.
+
 - Ativar o ModRewrite: <b>comando via terminal</b>: ```a2enmod rewrite``` ou habilitar nas configurações do <b>Apache</b>.
+
 - Executar os comandos <b>DDL</b> e <b>DML</b> do arquivo <b>database.sql</b>, o arquivo se encontra na raiz do projeto.
 
 
 ### License 📃
 
-<img src="https://img.shields.io/github/license/ericneves/simpleCRUDMVC?style=flat-square&logo=github&color=red" alt="License">
+<img src="https://img.shields.io/github/license/ericneves/simpleCRUDMVC?style=flat-square&logo=github&color=yellow" alt="License">
 
 ---
 
