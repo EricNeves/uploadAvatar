@@ -36,6 +36,7 @@ Além do mais, o upload das imagens são feitos no formato <b>BLOB (Binary Large
 As imagens são expostas através do <b>header</b>, tendo o conteúdo definido como <b>image/jpeg</b> a partir de uma <b>URL</b> com o <b>ID</b> na imagem.
 
 * PHP
+  - Version: >= 8
   - PDO (SQL)
   - OOP
   - SPL - Autoload
