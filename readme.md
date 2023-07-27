@@ -36,17 +36,17 @@ Além do mais, o upload das imagens são feitos no formato <b>BLOB (Binary Large
 As imagens são expostas através do <b>header</b>, tendo o conteúdo definido como <b>image/jpeg</b> a partir de uma <b>URL</b> com o <b>ID</b> na imagem.
 
 * PHP
-  - Version: >= 8
-  - PDO (SQL)
-  - OOP
-  - SPL - Autoload
-  - GB
+  - <b>Version: >= 8</b>
+  - <b>PDO (SQL)</b>
+  - <b>OOP</b>
+  - <b>SPL - Autoload</b>
+  - <b>GB</b>
 * SQL
-  - DDL / DML (BLOB)
+  - <b>DDL / DML (BLOB)</b>
 * Javascript
-  - Fetch API (Async)
-  - Axios (Async)
-  - Dropdown
+  - <b>Fetch API (Async)</b>
+  - <b>Axios (Async)</b>
+  - <b>Dropdown</b>
 * HTML/CSS
 
 ### How to use
