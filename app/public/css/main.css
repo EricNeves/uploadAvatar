@@ -97,7 +97,7 @@ header nav .dropdown {
   z-index: 999;
   text-align: center;
   line-height: 3rem;
-  visibility: visible;
+  visibility: hidden;
 }
 
 header nav .dropdown.show {
