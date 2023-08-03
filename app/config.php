@@ -11,4 +11,4 @@ define('DB_NAME', 'upload');
 /**
  * BASE URL
 */
-define('BASE_URL', 'http://localhost/github/uploadAvatar/app/');
+define('BASE_URL', 'http://127.0.0.1/uploadAvatar/app/');
