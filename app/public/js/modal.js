@@ -1,15 +1,19 @@
-const modal = document.querySelector('.modal')
-const btnOpenModal = document.querySelectorAll('#openModal')
+const modal         = document.querySelector('.modal')
+const btnOpenModal  = document.querySelectorAll('#openModal')
 const btnCloseModal = document.getElementById("close__modal")
-const btnDelete = document.getElementById('btn__delete')
-const result = document.querySelector('.delete__result')
+const btnDelete     = document.getElementById('btn__delete')
+const result        = document.querySelector('.delete__result')
+const ids_image     = document.querySelectorAll('.image > img')
 
 if (modal) {
-  btnOpenModal.forEach(btn => {
+  btnOpenModal.forEach(function(btn) {
     btn.onclick = e => {
       e.preventDefault()
 
       modal.classList.add('show')
+
+      const image = btn.getAttribute('item')
+      btnDelete.setAttribute('item', image)
     }
   })
 
