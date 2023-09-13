@@ -31,7 +31,7 @@ A aplicação explora vários recursos da linguagem <b>PHP</b>, como a funcional
 
 O sistema utiliza a arquitetura <b>MVC</b>, juntamente com recursos de funcionalidades assíncronas do <b>Javascript</b>, como a biblioteca <b>Axios</b> e <b>Fetch API</b>.
 
-Além do mais, o upload das imagens são feitos no formato <b>BLOB (Binary Large Object)</b>, sem a necessidade de armazenar arquivos no servidor ou em uma CDN, diminuindo a necessidade do uso de recursos.
+Além do mais, o upload das imagens são feitos no formato <b>BLOB (Binary Large Object)</b>, sem a necessidade de armazenar arquivos no <b>servidor</b> ou em uma <b>CDN</b>, diminuindo a necessidade do uso de recursos.
 
 As imagens são expostas através do <b>header</b>, tendo o conteúdo definido como <b>image/jpeg</b> a partir de uma <b>URL</b> com o <b>ID</b> na imagem.
 
