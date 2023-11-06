@@ -9,6 +9,10 @@
   Upload com redimensionamento de imagens em PHP, arquitetura MVC, progresso de upload, Axios, Fetch API, Mysql, OOP e muito mais.
 </h4>
 
+<br />
+
+Data de criação: ***Jul 25, 2023***
+
 <p align="center">
   <img src="https://img.shields.io/github/last-commit/ericneves/uploadAvatar?style=flat-square&logo=github&logoColor=white&color=green">
   <img src="https://img.shields.io/github/languages/top/ericneves/uploadAvatar?style=flat-square&logo=php&logoColor=white&labelColor=blue">
