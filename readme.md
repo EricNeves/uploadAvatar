@@ -11,7 +11,7 @@
 
 <br />
 
-<p align="center">Data de criação: ***Jul 25, 2023***</p>
+<p align="center">Data de criação: Jul 25, 2023</p>
 
 <p align="center">
   <img src="https://img.shields.io/github/last-commit/ericneves/uploadAvatar?style=flat-square&logo=github&logoColor=white&color=green">
